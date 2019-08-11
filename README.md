@@ -5,9 +5,9 @@ Python library for setting the frequency of a Si5351 off the Raspberry Pi's I2C 
 
 Library derived from code at https://github.com/adafruit/Adafruit_Si5351_Library
 
-Make sure you have installed python3-smbus:
+Make sure you have installed python-smbus -- the Adafruit_I2C.py library has not been updated for python3.
 
-$ sudo apt-get install python3-smbus
+$ sudo apt-get install python-smbus
 
 Example code:
 
