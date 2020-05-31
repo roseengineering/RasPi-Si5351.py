@@ -1,15 +1,16 @@
-RasPi-Si5351.py
-================
+# RasPi-Si5351.py
 
-Python library for setting the frequency of a Si5351 off the Raspberry Pi's I2C bus.
+A python2 library for setting the frequency of a Si5351 off the Raspberry Pi's I2C bus.
 
-Library derived from code at https://github.com/adafruit/Adafruit_Si5351_Library
+## Introduction
 
-Make sure you have installed python-smbus -- the Adafruit_I2C.py library has not been updated for python3.
+This library is derived from Adafruit's si5351 library code at https://github.com/adafruit/Adafruit_Si5351_Library
+
+The library requires python2 at the moment.  Since the Adafruit_I2C.py library depends on python-smbus and this code uses that library, make sure you have the python2 package python-smbus installed:
 
 $ sudo apt-get install python-smbus
 
-Example code:
+Example python2 code:
 
 ```
 from Si5351 import Si5351
